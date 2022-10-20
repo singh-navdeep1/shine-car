@@ -240,6 +240,38 @@ h6 {
     font-size: 16px;
   }
 }
+.m-b10 {
+  margin-bottom: 10px;
+}
+.m-b30 {
+  margin-bottom: 30px;
+}
+.icon-bx-wraper.left .icon-bx-xs {
+  float: left;
+  margin-right: 20px;
+}
+.content-inner {
+  padding-top: 70px;
+}
+.p-a30 {
+  padding: 30px;
+}
+.icon-bx-wraper {
+  position: relative;
+}
+.ti-location-pin:before {
+  content: "\e693";
+}
+.site-button {
+  background-color: #EE3131;
+  color: #fff;
+}
+.bg-primary {
+  background-color: #e81c2e !important;
+}
+.bg-gray {
+  background-color: #f5f6f6;
+}
 @media only screen and (min-width: 1300px) {
   .container-xxl,
   .container-xl,
@@ -11662,4 +11694,109 @@ span.select2-selection.select2-selection--single:focus {
   .space-extra2-bottom {
     padding-bottom: 70px;
   }
+}
+
+.dlab-social-icon.dlab-social-icon-lg li a {
+  color: #ffffff;
+  font-size: 14px;
+  height: 35px;
+  line-height: 34px;
+  padding: 0;
+  width: 35px;
+}
+.dlab-social-icon-lg.dlab-social-icon li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0;
+}
+.dlab-social-icon-lg.dlab-social-icon.border li a {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.contact-style-1 input{
+height:50px;	
+}
+.contact-style-1 .site-button{
+height:50px;
+width:100%;
+}
+.contact-style-1 .form-control{
+padding:10px 20px;
+}
+.contact-style-1 .form-control:focus,
+.contact-style-1 .form-control:hover{
+border-color:#c0c0c0;
+}
+.contact-style-1 h2{
+  font-size: 26px;
+margin-top:0;
+}
+.contact-style-1 .border-1{
+border:1px solid #eee;
+}
+.contact-style-1 .dlab-social-icon-lg{
+border-top: 1px solid #eeeeee;
+  padding-top: 20px;
+  text-align: left;
+  width: 100%;
+margin: 0;
+}
+.contact-style-1 .dlab-social-icon-lg a{
+text-align:center;
+}
+.contact-style-1 .dlab-social-icon-lg li a:hover{
+background:#fff!important;
+color:#000;
+border:1px solid #eee;
+}
+.contact-style-1  .form-group {
+  margin-bottom: 25px;
+}
+/* Team Section */
+
+.dlab-media.dlab-media-left .dlab-info-has,
+.dlab-media.dlab-media-top .dlab-info-has,
+.dlab-media.dlab-media-right .dlab-info-has {
+  bottom: auto;
+  margin-bottom: 0;
+  top: 0;
+}
+/* Top Side Icon */
+
+.dlab-media.dlab-media-top .dlab-info-has {
+  margin-top: -100px;
+}
+.dlab-media.dlab-media-top:hover .dlab-info-has,
+.dlab-box:hover .dlab-media.dlab-media-top .dlab-info-has {
+  margin-top: 0;
+}
+/* Left Side Icon */
+
+.dlab-media.dlab-media-left .dlab-info-has {
+  left: 0;
+  padding: 15px;
+  width: auto;
+  margin-left: -60px;
+}
+.dlab-media.dlab-media-left:hover .dlab-info-has {
+  margin-left: 0px;
+}
+.dlab-media.dlab-media-left .dlab-social-icon li {
+  display: block;
+  margin: 3px 0;
+}
+/* Right Side Icon */
+
+.dlab-media.dlab-media-right .dlab-info-has {
+  right: 0;
+  padding: 15px;
+  width: auto;
+  left: auto;
+  margin-right: -60px;
+}
+.dlab-media.dlab-media-right:hover .dlab-info-has {
+  margin-right: 0px;
+}
+.dlab-media.dlab-media-right .dlab-social-icon li {
+  display: block;
+  margin: 3px 0;
 }
