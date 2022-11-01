@@ -10644,7 +10644,7 @@ ol.commentlist li .star-rating {
     border-radius: 40px;
     bottom: 10px;
     color: #ffffff;
-    display: table;
+    display: none;
     height: 50px;
     left: 10px;
     min-width: 50px;
@@ -10789,6 +10789,6 @@ a.bg-primary:hover,
 .site-button:hover,
 .site-button:focus,
 .active > .site-button {
-    background-color: var(--primary-hover);
+    /* background-color: var(--primary-hover); */
     color: #fff;
 }

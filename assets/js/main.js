@@ -162,7 +162,7 @@
           dots: !!s("dots"),
           fade: !!s("fade"),
           arrows: !!s("arrows"),
-          speed: s("speed") ? s("speed") : 1e3,
+          speed: s("speed") ? s("speed") : 4e3,
           asNavFor: !!s("asnavfor") && s("asnavfor"),
           autoplay: 0 != s("autoplay"),
           infinite: 0 != s("infinite"),
